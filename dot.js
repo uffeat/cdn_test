@@ -21,4 +21,4 @@ class JapDot extends HTMLElement {
 const componentTag = 'jap-dot';
 customElements.get(componentTag) || customElements.define(componentTag, JapDot);
 
-//export { JapDot as default };
+export { JapDot };
