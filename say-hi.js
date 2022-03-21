@@ -1,3 +1,3 @@
 const sayHi = () => {
-  alert("Hi from CDN function");
+  alert("Hi from CDN function - version 3");
 }
