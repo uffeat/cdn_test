@@ -1,4 +1,4 @@
 const sayHi = () => {
-  alert("Hi from CDN");
+  alert("Hi from CDN function");
 }
 
