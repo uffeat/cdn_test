@@ -1,7 +1,8 @@
-class JapDot extends HTMLElement {
+import {JapBase} from './base.js'
+
+class JapDot extends JapBase {
   constructor() {
     super();
-    this._root = this.attachShadow({ mode: 'open' });
     this._root.innerHTML = `
     <style>
       span {
